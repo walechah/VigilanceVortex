@@ -1,12 +1,12 @@
 import React from "react";
-import safety from "./Safety icon.png";
 import './Hero.css';
+import img1 from './img/Safety icon.png';
 
 function Hero() {
   return (
     <div className="hero">
       <div className="left">
-        <img src={safety} alt="Safety Icon" />
+<img src={img1} alt="" />
       </div>
       <div className="right">
         <h2>
